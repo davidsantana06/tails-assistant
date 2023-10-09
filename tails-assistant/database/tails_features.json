@@ -1,0 +1,53 @@
+{
+    "name": "Tails",
+    "actions": [
+        {
+            "command": "create",
+            "names": [
+                "acrescentar",
+                "adicionar",
+                "colocar",
+                "inserir",
+                "incluir"
+            ],
+            "objects": [
+                "jogo"
+            ]
+        },
+        {
+            "command": "delete",
+            "names": [
+                "apagar",
+                "deletar",
+                "eliminar",
+                "excluir",
+                "remover"
+            ],
+            "objects": [
+                "jogo"
+            ]
+        },
+        {
+            "command": "list",
+            "names": [
+                "exibir",
+                "consultar",
+                "listar",
+                "mostrar"
+            ],
+            "objects": [
+                "jogos",
+                "populares"
+            ]
+        },
+        {
+            "command": "recommend",
+            "names": [
+                "apontar",
+                "recomendar",
+                "sugerir"
+            ],
+            "objects": "jogo"
+        }
+    ]
+}

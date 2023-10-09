@@ -1,0 +1,548 @@
+{
+    "best_games": [
+        {
+            "id": 1,
+            "name": "AdventureQuest Worlds"
+        },
+        {
+            "id": 2,
+            "name": "Assassin's Creed II"
+        },
+        {
+            "id": 3,
+            "name": "Assassin's Creed Odyssey"
+        },
+        {
+            "id": 4,
+            "name": "Assassin's Creed Origins"
+        },
+        {
+            "id": 5,
+            "name": "Assassin's Creed Valhalla"
+        },
+        {
+            "id": 6,
+            "name": "Batman Arkham City"
+        },
+        {
+            "id": 7,
+            "name": "Beyond: Two Souls"
+        },
+        {
+            "id": 8,
+            "name": "Broforce"
+        },
+        {
+            "id": 9,
+            "name": "Castlevania: Dawn of Sorrow"
+        },
+        {
+            "id": 10,
+            "name": "Crash Twinsanity"
+        },
+        {
+            "id": 11,
+            "name": "Dark Souls Remastered"
+        },
+        {
+            "id": 12,
+            "name": "Dark Souls III"
+        },
+        {
+            "id": 13,
+            "name": "Days Gone"
+        },
+        {
+            "id": 14,
+            "name": "Dead Cells"
+        },
+        {
+            "id": 15,
+            "name": "Demon's Souls"
+        },
+        {
+            "id": 16,
+            "name": "Doom Eternal"
+        },
+        {
+            "id": 17,
+            "name": "Dragon Ball Xenoverse"
+        },
+        {
+            "id": 18,
+            "name": "Dragon Ball Xenoverse 2"
+        },
+        {
+            "id": 19,
+            "name": "Dragon Ball Z: Budokai Tenkaichi 3"
+        },
+        {
+            "id": 20,
+            "name": "Dragon Ball Z: Kakarot"
+        },
+        {
+            "id": 21,
+            "name": "Dying Light"
+        },
+        {
+            "id": 22,
+            "name": "Forza Horizon 4"
+        },
+        {
+            "id": 23,
+            "name": "Forza Horizon 5"
+        },
+        {
+            "id": 24,
+            "name": "Gears 5"
+        },
+        {
+            "id": 25,
+            "name": "Ghost of Tsushima"
+        },
+        {
+            "id": 26,
+            "name": "GTA Online"
+        },
+        {
+            "id": 27,
+            "name": "Grand Theft Auto IV: The Complete Edition"
+        },
+        {
+            "id": 28,
+            "name": "Grand Theft Auto V"
+        },
+        {
+            "id": 29,
+            "name": "Grand Theft Auto: San Andreas"
+        },
+        {
+            "id": 30,
+            "name": "Injustice: God Among Us"
+        },
+        {
+            "id": 31,
+            "name": "Katana Zero"
+        },
+        {
+            "id": 32,
+            "name": "Left 4 Dead 2"
+        },
+        {
+            "id": 33,
+            "name": "Mark of the Ninja"
+        },
+        {
+            "id": 34,
+            "name": "Marvel vs. Capcom 2: New Age of Heroes"
+        },
+        {
+            "id": 35,
+            "name": "Marvel's Spider Man"
+        },
+        {
+            "id": 36,
+            "name": "Marvel's Spider Man: Miles Morales"
+        },
+        {
+            "id": 37,
+            "name": "Max Payne 3"
+        },
+        {
+            "id": 38,
+            "name": "Mortal Kombat 11"
+        },
+        {
+            "id": 39,
+            "name": "Mortal Kombat Komplete Edition"
+        },
+        {
+            "id": 40,
+            "name": "Mortal Kombat: Armageddon"
+        },
+        {
+            "id": 41,
+            "name": "Mortal Kombat X"
+        },
+        {
+            "id": 42,
+            "name": "New Super Mario Bros."
+        },
+        {
+            "id": 43,
+            "name": "New Super Mario Bros. 2"
+        },
+        {
+            "id": 44,
+            "name": "Pathologic 2"
+        },
+        {
+            "id": 45,
+            "name": "Portal 2"
+        },
+        {
+            "id": 46,
+            "name": "Red Dead Redemption 2"
+        },
+        {
+            "id": 47,
+            "name": "Resident Evil 2 (2019)"
+        },
+        {
+            "id": 48,
+            "name": "Resident Evil 3 (2020)"
+        },
+        {
+            "id": 49,
+            "name": "Resident Evil 4"
+        },
+        {
+            "id": 50,
+            "name": "Resident Evil 7"
+        },
+        {
+            "id": 51,
+            "name": "Shadow of the Colossus (2018)"
+        },
+        {
+            "id": 52,
+            "name": "Shovel Knight: Treasure Trove"
+        },
+        {
+            "id": 53,
+            "name": "Sleeping Dogs"
+        },
+        {
+            "id": 54,
+            "name": "Sekiro: Shadows Die Twice"
+        },
+        {
+            "id": 55,
+            "name": "Sonic Mania"
+        },
+        {
+            "id": 56,
+            "name": "Spider-Man: Web of Shadows"
+        },
+        {
+            "id": 57,
+            "name": "Spider-Man Shattered Dimensions"
+        },
+        {
+            "id": 58,
+            "name": "Star Wars Jedi: Fallen Order"
+        },
+        {
+            "id": 59,
+            "name": "Super Mario 3D Land"
+        },
+        {
+            "id": 60,
+            "name": "Super Mario Bros. 3"
+        },
+        {
+            "id": 61,
+            "name": "Super Mario Maker"
+        },
+        {
+            "id": 62,
+            "name": "Super Mario Maker 2"
+        },
+        {
+            "id": 63,
+            "name": "Super Mario World 2: Yoshi's Island"
+        },
+        {
+            "id": 64,
+            "name": "The Elder Scrolls IV: Oblivion"
+        },
+        {
+            "id": 65,
+            "name": "The Elder Scrolls V: Skyrim"
+        },
+        {
+            "id": 66,
+            "name": "The Last of Us"
+        },
+        {
+            "id": 67,
+            "name": "The Last of Us Part II"
+        },
+        {
+            "id": 68,
+            "name": "The Witcher 3: Wild Hunt"
+        },
+        {
+            "id": 69,
+            "name": "Titanfall 2"
+        },
+        {
+            "id": 70,
+            "name": "Transformice"
+        },
+        {
+            "id": 71,
+            "name": "Ultimate Spider-Man"
+        },
+        {
+            "id": 72,
+            "name": "Until Dawn"
+        },
+        {
+            "id": 73,
+            "name": "X-Men Origins: Wolverine"
+        }
+    ],
+    "best_sellers": [
+        {
+            "id": 1,
+            "name": "Minecraft",
+            "quantity_sold": 238000000
+        },
+        {
+            "id": 2,
+            "name": "Grand Theft Auto V",
+            "quantity_sold": 150000000
+        },
+        {
+            "id": 3,
+            "name": "Tetris (EA)",
+            "quantity_sold": 100000000
+        },
+        {
+            "id": 4,
+            "name": "Wii Sports",
+            "quantity_sold": 82900000
+        },
+        {
+            "id": 5,
+            "name": "PlayerUnknown's Battlegrounds",
+            "quantity_sold": 70000000
+        },
+        {
+            "id": 6,
+            "name": "Super Mario Bros.",
+            "quantity_sold": 58000000
+        },
+        {
+            "id": 7,
+            "name": "Pokémon Red/Green/Blue/Yellow",
+            "quantity_sold": 47520000
+        },
+        {
+            "id": 8,
+            "name": "Mario Kart 8/Deluxe",
+            "quantity_sold": 45530000
+        },
+        {
+            "id": 9,
+            "name": "Wii Fit/Plus",
+            "quantity_sold": 43800000
+        },
+        {
+            "id": 10,
+            "name": "Tetris (Nintendo)",
+            "quantity_sold": 43000000
+        },
+        {
+            "id": 11,
+            "name": "Pac-Man",
+            "quantity_sold": 40955092
+        },
+        {
+            "id": 12,
+            "name": "Red Dead Redemption 2",
+            "quantity_sold": 38000000
+        },
+        {
+            "id": 13,
+            "name": "Mario Kart Wii",
+            "quantity_sold": 37380000
+        },
+        {
+            "id": 14,
+            "name": "Terraria",
+            "quantity_sold": 35000000
+        },
+        {
+            "id": 15,
+            "name": "Animal Crossing: New Horizons",
+            "quantity_sold": 33890000
+        },
+        {
+            "id": 16,
+            "name": "Wii Sports Resort",
+            "quantity_sold": 33140000
+        },
+        {
+            "id": 17,
+            "name": "New Super Mario Bros.",
+            "quantity_sold": 30800000
+        },
+        {
+            "id": 18,
+            "name": "New Super Mario Bros. Wii",
+            "quantity_sold": 30320000
+        },
+        {
+            "id": 19,
+            "name": "The Elder Scrolls V: Skyrim",
+            "quantity_sold": 30000000
+        },
+        {
+            "id": 20,
+            "name": "Call of Duty: Modern Warfare",
+            "quantity_sold": 30000000
+        },
+        {
+            "id": 21,
+            "name": "Diablo III/Reaper of Souls",
+            "quantity_sold": 30000000
+        },
+        {
+            "id": 22,
+            "name": "The Witcher 3/Hearts of Stone/Blood and Wine",
+            "quantity_sold": 30000000
+        },
+        {
+            "id": 23,
+            "name": "Human: Fall Flat",
+            "quantity_sold": 30000000
+        },
+        {
+            "id": 24,
+            "name": "Pokémon Gold/Silver/Crystal",
+            "quantity_sold": 29490000
+        },
+        {
+            "id": 25,
+            "name": "Duck Hunt",
+            "quantity_sold": 28300000
+        },
+        {
+            "id": 26,
+            "name": "Wii Play",
+            "quantity_sold": 28020000
+        },
+        {
+            "id": 27,
+            "name": "Grand Theft Auto: San Andreas",
+            "quantity_sold": 27500000
+        },
+        {
+            "id": 28,
+            "name": "Super Mario World",
+            "quantity_sold": 26662500
+        },
+        {
+            "id": 29,
+            "name": "Call of Duty: Modern Warfare 3",
+            "quantity_sold": 26500000
+        },
+        {
+            "id": 30,
+            "name": "Call of Duty: Black Ops",
+            "quantity_sold": 26200000
+        },
+        {
+            "id": 31,
+            "name": "Pokémon Sun/Moon/Ultra Sun/Ultra Moon",
+            "quantity_sold": 25230000
+        },
+        {
+            "id": 32,
+            "name": "Grand Theft Auto IV",
+            "quantity_sold": 25000000
+        },
+        {
+            "id": 33,
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "quantity_sold": 24890000
+        },
+        {
+            "id": 34,
+            "name": "Super Smash Bros. Ultimate",
+            "quantity_sold": 24770000
+        },
+        {
+            "id": 35,
+            "name": "Pokémon Diamond/Pearl/Platinum",
+            "quantity_sold": 24730000
+        },
+        {
+            "id": 36,
+            "name": "Super Mario Bros. 3",
+            "quantity_sold": 24430000
+        },
+        {
+            "id": 37,
+            "name": "Call of Duty: Black Ops II",
+            "quantity_sold": 24200000
+        },
+        {
+            "id": 38,
+            "name": "Kinect Adventures!",
+            "quantity_sold": 24000000
+        },
+        {
+            "id": 39,
+            "name": "FIFA 18",
+            "quantity_sold": 24000000
+        },
+        {
+            "id": 40,
+            "name": "Sonic The Hedgehog",
+            "quantity_sold": 23982000
+        },
+        {
+            "id": 41,
+            "name": "Nintendogs",
+            "quantity_sold": 23960000
+        },
+        {
+            "id": 42,
+            "name": "Mario Kart DS",
+            "quantity_sold": 23600000
+        },
+        {
+            "id": 43,
+            "name": "Super Mario 64/64 DS",
+            "quantity_sold": 22960000
+        },
+        {
+            "id": 44,
+            "name": "Call of Duty: Modern Warfare 2",
+            "quantity_sold": 22700000
+        },
+        {
+            "id": 45,
+            "name": "Pokémon Ruby/Sapphire/Emerald",
+            "quantity_sold": 22540000
+        },
+        {
+            "id": 46,
+            "name": "Borderlands 2",
+            "quantity_sold": 22000000
+        },
+        {
+            "id": 47,
+            "name": "Pokémon Sword/Shield",
+            "quantity_sold": 21850000
+        },
+        {
+            "id": 48,
+            "name": "Super Mario Odyssey",
+            "quantity_sold": 21400000
+        },
+        {
+            "id": 49,
+            "name": "Grand Theft Auto Vice City",
+            "quantity_sold": 20000000
+        },
+        {
+            "id": 50,
+            "name": "The Last of Us Remastered",
+            "quantity_sold": 20000000
+        }
+    ]
+}
