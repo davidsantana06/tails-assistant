@@ -1,7 +1,6 @@
 from speech_recognition import AudioData, Microphone, Recognizer
 
 
-CORPUS_LANGUAGE = 'portuguese'
 SPEECH_LANGUAGE = 'pt-BR'
 SPEECH_INPUT_TIMEOUT = 5
 
@@ -18,6 +17,7 @@ def speech_input(recognizer: Recognizer):
                 audio_source, timeout=SPEECH_INPUT_TIMEOUT
             )
         except:
+            # print_error('Não foi possível ouvir o que você disse.')
             pass
 
     return speech
@@ -31,14 +31,7 @@ def speech_transcription(speech: AudioData, recognizer: Recognizer):
             speech, language=SPEECH_LANGUAGE
         )
     except:
+        # print_error('Não foi possível ouvir o que você disse.')
         pass
 
     return transcription
-
-
-def filter_tokens(tokens: list[str], stopwords: set[str]):
-    return [
-        token
-        for token in tokens
-        if token not in stopwords
-    ]
