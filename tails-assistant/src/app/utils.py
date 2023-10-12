@@ -1,14 +1,30 @@
 from colorama import Fore, Style
+from time import sleep
 
 
-def print_color(msg: str, sender: str, color: str):
+CHAR_GAP_SECS = 0.075
+
+
+def print_color(msg: str, sender: str, color: str, char_by_char: bool = False):
     print(
-        f'> {sender}:\n' + f'{color}{msg}{Style.RESET_ALL}'
+        '\n' + sender + ':\n' +
+        f'{color}{msg}{Style.RESET_ALL}'
     )
 
 
-def print_light(msg: str, sender: str):
-    print_color(msg, sender, Fore.WHITE)
+def print_light(msg: str, sender: str, char_by_char: bool = True):
+    print('\n' + sender + ':')
+
+    if char_by_char:
+        for char in msg:
+            print(char, end='', flush=True)
+
+            if char != ' ':
+                sleep(CHAR_GAP_SECS)
+
+        print()
+    else:
+        print(msg)
 
 
 def print_success(msg: str, sender: str):
@@ -21,7 +37,3 @@ def print_error(msg: str, sender: str):
 
 def print_warning(msg: str, sender: str):
     print_color(msg, sender, Fore.YELLOW)
-
-
-def print_info(msg: str, sender: str):
-    print_color(msg, sender, Fore.BLUE)
