@@ -28,7 +28,7 @@
             ]
         },
         {
-            "command": "list",
+            "command": "show_all",
             "names": [
                 "exibir",
                 "consultar",
@@ -47,7 +47,9 @@
                 "recomendar",
                 "sugerir"
             ],
-            "objects": "jogo"
+            "objects": [
+                "jogo"
+            ]
         }
     ]
 }
