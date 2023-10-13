@@ -2,20 +2,23 @@ from types import MethodType
 from .actuators import Actuator
 
 
-def validate_command(tokens: list[str], ai_name: str, actions: list[dict[str, object]]):
+def translate_command(tokens: list[str], ai_name: str, ai_actions: list[dict[str, object]]):
     valid_command = False
-    action, item, method = None, None, None
+    item, method = None, None
 
     if (len(tokens) >= 3) and (ai_name == tokens[0]):
         action, item = tokens[1], tokens[2]
 
-        for action_entry in actions:
-            if (action in action_entry.get('names')) and (item == action_entry.get('item')):
-                method = action_entry.get('method')
+        for ai_action in ai_actions:
+            if (action in ai_action.get('names')) and (item == ai_action.get('item')):
+                method = ai_action.get('method')
                 valid_command = True
                 break
 
-    return (valid_command, item, method)
+    if not valid_command:
+        raise Exception('Invalid command.')
+
+    return (item, method)
 
 
 def execute_command(item: str, method: str, actuators: tuple[Actuator, ...]):

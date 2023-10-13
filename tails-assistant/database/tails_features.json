@@ -13,7 +13,7 @@
             "item": "jogo"
         },
         {
-            "method": "pop",
+            "method": "remove",
             "names": [
                 "apagar",
                 "deletar",

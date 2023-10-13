@@ -38,12 +38,9 @@ class ArchiveGames(Actuator):
 
         msg = random.choice([
             'Os jogos mais populares são:\n{}',
-            'Os jogos mais jogados são:\n{}',
-            'Os jogos mais recomendados são:\n{}',
-            'Os jogos mais populares são:\n{}',
             'Os jogos mais jogados são:\n{}'
-        ])
-        return (msg.format(games), 'primary')
+        ]).format(games)
+        return (msg, 'primary')
 
 
 class UserGames(Actuator):
@@ -66,11 +63,18 @@ class UserGames(Actuator):
         return (msg, cat)
 
     def show(self):
-        msg = random.choice([
-            'Que maravilha! Você já tem {} jogos cadastrados.',
-            'Incrível! São {} jogos na sua sessão.',
-            'Uau! Você possui {} jogos registrados.',
-            'Parabéns! Sua sessão contém {} jogos.',
-            'Fantástico! {} jogos já estão na sua sessão.'
-        ])
-        return (msg.format(self.user_games), 'primary')
+        msg, cat = '', ''
+
+        if self.user_games > 0:
+            msg = random.choice([
+                'Que maravilha! Você já tem {} jogos cadastrados.',
+                'Incrível! São {} jogos na sua sessão.',
+                'Uau! Você possui {} jogos registrados.',
+                'Parabéns! Sua sessão contém {} jogos.',
+                'Fantástico! {} jogos já estão na sua sessão.'
+            ]).format(self.user_games)
+            cat = 'primary'
+        else:
+            msg, cat = 'Você não possui jogos cadastrados.', 'warning'
+            
+        return (msg, cat)
