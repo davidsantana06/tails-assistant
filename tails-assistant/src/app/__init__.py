@@ -3,8 +3,8 @@ from speech_recognition import Recognizer
 import colorama
 import json
 
+from .actuators import UserGames, ArchiveGames
 from .constants import DATABASE_DIR
-from .items import UserGames, ArchiveGames
 from .token import retrieve_stop_words
 
 
