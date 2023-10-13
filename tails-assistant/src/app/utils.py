@@ -7,13 +7,13 @@ CHAR_GAP_SECS = 0.04
 
 def print_color(msg: str, sender: str, color: str):
     print(
-        '\n> ' + sender + ':\n' +
+        '\n> ' + sender + '\n' +
         f'{color}{msg}{Style.RESET_ALL}'
     )
 
 
-def print_light(msg: str, sender: str, char_by_char: bool = True):
-    print('\n> ' + sender + ':')
+def print_primary(msg: str, sender: str, char_by_char: bool = True):
+    print('\n> ' + sender)
 
     if char_by_char:
         for char in msg:
