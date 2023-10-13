@@ -2,7 +2,7 @@
     "name": "Tails",
     "actions": [
         {
-            "command": "create",
+            "method": "add",
             "names": [
                 "acrescentar",
                 "adicionar",
@@ -10,12 +10,10 @@
                 "inserir",
                 "incluir"
             ],
-            "objects": [
-                "jogo"
-            ]
+            "item": "jogo"
         },
         {
-            "command": "delete",
+            "method": "pop",
             "names": [
                 "apagar",
                 "deletar",
@@ -23,33 +21,34 @@
                 "excluir",
                 "remover"
             ],
-            "objects": [
-                "jogo"
-            ]
+            "item": "jogo"
         },
         {
-            "command": "show_all",
+            "method": "show",
             "names": [
                 "exibir",
                 "consultar",
-                "listar",
                 "mostrar"
             ],
-            "objects": [
-                "jogos",
-                "populares"
-            ]
+            "item": "jogos"
         },
         {
-            "command": "recommend",
+            "method": "recommend_game",
             "names": [
                 "apontar",
                 "recomendar",
                 "sugerir"
             ],
-            "objects": [
-                "jogo"
-            ]
+            "item": "jogo"
+        },
+        {
+            "method": "show_popular",
+            "names": [
+                "exibir",
+                "consultar",
+                "mostrar"
+            ],
+            "item": "populares"
         }
     ]
 }
