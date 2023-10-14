@@ -56,6 +56,7 @@ class UserGames(Actuator):
         msg, cat = '', ''
 
         if self.user_games > 0:
+            self.user_games -= 1
             msg, cat = 'Jogo removido com sucesso!', 'success'
         else:
             msg, cat = 'Você não possui jogos cadastrados!', 'warning'
