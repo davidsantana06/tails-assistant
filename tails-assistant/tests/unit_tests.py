@@ -5,13 +5,13 @@ import sys
 
 ROOT_FOLDER = path.abspath(path.join(path.dirname(__file__), '..'))
 TESTS_FOLDER = path.join(ROOT_FOLDER, 'tests')
-AUDIO_FOLDER = path.join(TESTS_FOLDER, 'audio')
-TEST_AI_NAME = path.join(AUDIO_FOLDER, 'test-ai-name.wav')
-TEST_ADD_GAME = path.join(AUDIO_FOLDER, 'test-add-game.wav')
-TEST_REMOVE_GAME = path.join(AUDIO_FOLDER, 'test-remove-game.wav')
-TEST_SHOW_GAMES = path.join(AUDIO_FOLDER, 'test-show-games.wav')
-TEST_RECOMMEND_GAME = path.join(AUDIO_FOLDER, 'test-recommend-game.wav')
-TEST_SHOW_POPULAR = path.join(AUDIO_FOLDER, 'test-show-popular.wav')
+AUDIOS_FOLDER = path.join(TESTS_FOLDER, 'audios')
+TEST_AI_NAME = path.join(AUDIOS_FOLDER, 'test-ai-name.wav')
+TEST_ADD_GAME = path.join(AUDIOS_FOLDER, 'test-add-game.wav')
+TEST_REMOVE_GAME = path.join(AUDIOS_FOLDER, 'test-remove-game.wav')
+TEST_SHOW_GAMES = path.join(AUDIOS_FOLDER, 'test-show-games.wav')
+TEST_RECOMMEND_GAME = path.join(AUDIOS_FOLDER, 'test-recommend-game.wav')
+TEST_SHOW_POPULAR = path.join(AUDIOS_FOLDER, 'test-show-popular.wav')
 
 sys.path.append(ROOT_FOLDER)
 
