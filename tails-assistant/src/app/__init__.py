@@ -1,4 +1,3 @@
-from os import path
 from speech_recognition import Recognizer
 import colorama
 import json
