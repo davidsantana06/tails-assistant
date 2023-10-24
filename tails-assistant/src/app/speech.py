@@ -7,9 +7,7 @@ SPEECH_INPUT_TIMEOUT = 5
 
 def speech_from_audio_file(audio_path: str, recognizer: Recognizer):
     with AudioFile(audio_path) as audio_source:
-        return recognizer.recognize_google(
-            recognizer.listen(audio_source), language=SPEECH_LANGUAGE
-        )
+        return recognizer.listen(audio_source)
 
 
 def speech_input(recognizer: Recognizer):
