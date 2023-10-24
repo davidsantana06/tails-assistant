@@ -29,12 +29,15 @@ class ArchiveGames(Actuator):
         ])
         return (msg.format(game), 'primary')
     
-    def show_popular(self):
+    def show_popular(self, total: int = 10):
         games = ''
-    
-        for i, game in enumerate(self.popular_games[0:10], start=1):
+
+        for i, game in enumerate(self.popular_games[0:total], start=1):
             quantity_sold = '{:,}'.format(game.get('quantity_sold'))
-            games += f'{i}. {game.get("name")} com {quantity_sold} unidades comercializadas.\n'
+            games += f'{i}. {game.get("name")} com {quantity_sold} unidades comercializadas.'
+
+            if i < total:
+                games += '\n'
 
         msg = random.choice([
             'Os jogos mais populares são:\n{}',

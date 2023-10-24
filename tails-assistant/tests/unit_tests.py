@@ -74,6 +74,7 @@ class TestArchiveGames(TestCase):
     def test_show_popular(self):
         self.assert_true_from_command_audio(TEST_SHOW_POPULAR)
 
+
 class TestUserGames(TestCase):
     def test_add_game(self):
         self.assert_true_from_command_audio(TEST_ADD_GAME)
@@ -88,9 +89,7 @@ class TestUserGames(TestCase):
 if __name__ == '__main__':
     test_loader = TestLoader()
     tests = TestSuite()
-    test_cases = [
-        TestAiName, TestArchiveGames, TestUserGames
-    ]
+    test_cases = [TestAiName, TestArchiveGames, TestUserGames]
     test_runner = TextTestRunner()
 
     for test_case in test_cases:
